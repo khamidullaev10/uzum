@@ -1,0 +1,55 @@
+.login{
+    min-height: 50vh;
+}
+.login h2{
+    text-align: center;
+    margin-top: 30px;
+    color: var(--bg-py);
+}
+.loginForm{
+    width: 300px;
+    height: 190px;
+    padding: 20px;
+    background: linear-gradient(35deg, #fff, dodgerblue, dodgerblue, #fff);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.loginForm input{
+    width: 220px;
+    height: 35px;
+    display: block;
+    border: 1px solid #ddd;
+    text-indent: 10px;
+    outline: none;
+    margin: 10px auto;
+}
+.loginForm button{
+    width: 220px;
+    height: 35px;
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    background: linear-gradient(35deg, #fff, dodgerblue, #fff);
+    margin: auto;
+    transition: 0.5s;
+}
+.loginForm button:hover{
+    background: linear-gradient(35deg, dodgerblue, #fff, dodgerblue);
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 358px){
+  .loginForm{
+    min-width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 332px){
+  .loginForm{
+    min-width: 120px;
+    height: 200px;
+  }
+}
+
+
